@@ -7,12 +7,6 @@ import vk_audio
 from telebot import types
 
 #токены
-vk = vk_audio.VkAudio(login='+7(969) 969-5412', password='omopur97')  # ВК авторизация
-client = Client()  # Клиент Яндекс.Музыки
-bot = telebot.TeleBot('1763338570:AAH-6CSF7YSeBRu43b-rey2cHFwiYGeXC9I')  # API бота
-genius = lyricsgenius.Genius('9bDm8DpQlsRIZ7TKG76or_AuR_Y0Fkx1g5tjL5tzmG0lgKaSTF6iOT8cjVpL65Qn')  # Api Genius
-spotify = spotipy.Spotify(  # API Spotify
-    auth_manager=SpotifyClientCredentials("614ac917f8fc4ac1b5d9ad1d4732b757", "805b79bb63d44b779e6052e0df2a5efa"))
 
 
 # транслитерация
